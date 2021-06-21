@@ -8,7 +8,7 @@
     <groupId>com.isw.app</groupId>
     <artifactId>iswapp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>Iswapp</name>
 
     <repositories>
