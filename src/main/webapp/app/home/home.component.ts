@@ -16,6 +16,8 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   constructor(private accountService: AccountService, private router: Router) {}
 
+  // Add new comment by Gonzalo Corsanigo
+
   ngOnInit(): void {
     this.authSubscription = this.accountService.getAuthenticationState().subscribe(account => (this.account = account));
   }
