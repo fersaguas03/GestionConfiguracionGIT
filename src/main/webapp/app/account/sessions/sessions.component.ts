@@ -17,6 +17,8 @@ export class SessionsComponent implements OnInit {
 
   constructor(private sessionsService: SessionsService, private accountService: AccountService) {}
 
+  // New comment by Gonzalo Corsanigo
+
   ngOnInit(): void {
     this.sessionsService.findAll().subscribe(sessions => (this.sessions = sessions));
 
